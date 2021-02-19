@@ -1,0 +1,24 @@
+@import "../../Styles/colors.scss";
+
+.statusToggle {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .statusType {
+    color: $colorTextSecondary;
+    font-weight: 600;
+    font-size: smaller;
+    text-align: center;
+    padding: 15px;
+    flex: 1;
+    border-bottom: 2px solid #dedede;
+    cursor: pointer;
+    &.selected {
+      color: $colorPrimary;
+      padding-bottom: 13.5px;
+      border-bottom: 3.5px solid $colorPrimary;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../Styles/colors.scss";
+
+.AppBar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+
+  h3 {
+    color: $colorPrimary;
+    font-weight: 900;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .reminderType {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    height: 50px;
+
+    .type {
+      padding: 12.5px;
+      margin: 0 1vw;
+      color: $colorTextPrimary;
+      &.selected {
+        color: $colorPrimary;
+        border-bottom: 3.5px solid $colorPrimary;
+      }
+    }
+  }
+}

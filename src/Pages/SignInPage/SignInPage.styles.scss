@@ -1,0 +1,44 @@
+@import "../../Styles/colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap");
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $colorBackground;
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7vh 0 7vh 0;
+    background-color: white;
+    box-shadow: 0 2px 2px #88888810;
+    width: 30vw;
+    min-width: 300px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-family: "Sansita Swashed", cursive;
+    color: $colorPrimary;
+  }
+
+  h3 {
+    margin: 3vh;
+    font-weight: 600;
+    color: $colorTextPrimary;
+  }
+
+  p {
+    margin: 2vh;
+  }
+
+  .error {
+    color: red;
+    font-size: 2vh;
+  }
+}

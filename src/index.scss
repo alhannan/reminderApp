@@ -1,0 +1,12 @@
+@import "./Styles/colors.scss";
+@import "./Styles/typography.scss";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $colorBackground;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
